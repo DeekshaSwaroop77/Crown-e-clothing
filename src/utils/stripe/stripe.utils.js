@@ -1,3 +1,3 @@
 import { loadStripe } from "@stripe/stripe-js";
 
-const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
+export const stripePromise=loadStripe("pk_test_51NjIfCH2z6mEntjByqqjMB0PhXtytLB19LQBWJXdp8GiBSGKnIpH3mwGWahPcHKLTyGH1R9BRH693k2uSCGk5fs7006xdudi8n") //pass the publishable key to loadstripe
